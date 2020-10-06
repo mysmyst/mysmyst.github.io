@@ -1,6 +1,6 @@
 // set up text to print, each item in array is new line
 var aText = new Array(
-"There are only 10 types of people in the world:", 
+"printf(\"hello world\")", 
 "Those who understand binary, and those who don't"
 );
 var iSpeed = 100; // time delay of print out
