@@ -1,30 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-
 body {
-width: 90%;
-background-color: #212121;
-color: #33FF33;
-margin:auto;
-font-size:12px; 
-margin: 40px 40px; 
-font-weight: bold;
-font-family: 'Fira Code', monospace;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #212121;
+    color: #33FF33;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Fira Code', monospace;
 }
-
 .card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
-  transition: 0.3s;
-  border-radius: 5px;
-  background-color: black;
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+	transition: 0.3s;
+	border-radius: 5px;
+	background-color: black;
 }
-
 /* On mouse-over, add a deeper shadow */
+
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+/* Add some padding inside the card container */
+
+.innercard {
+	padding: 2px 16px;
 }
 
-/* Add some padding inside the card container */
-.innercard {
-  padding: 2px 16px;
-}
+canvas {
+            width: 100%;
+            height: 100%;
+        }
