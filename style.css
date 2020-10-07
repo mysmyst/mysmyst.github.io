@@ -30,12 +30,6 @@ body {
 	padding: 2px 16px;
 }
 
-#container {
-  position: relative;
-}
-#container canvas {
-  position: absolute;
-}
 
 canvas {
             width: 100%;
