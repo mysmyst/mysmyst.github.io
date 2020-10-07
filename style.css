@@ -9,6 +9,7 @@ body {
     font-size: 12px;
     font-weight: bold;
     font-family: 'Fira Code', monospace;
+    overflow: hidden;
 }
 .card {
 	/* Add shadows to create the "card" effect */
